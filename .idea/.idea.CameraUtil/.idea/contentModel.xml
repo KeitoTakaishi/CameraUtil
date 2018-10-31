@@ -5,6 +5,12 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="18SeamlessNormalMaps512Free" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="DoTweenSample.cs" t="Include" />
+            <e p="PostEffectApply.cs" t="Include" />
+          </e>
+        </e>
         <e p="Camera" t="Include">
           <e p="Follow.cs" t="Include" />
           <e p="Switcher.cs" t="Include" />
@@ -24,9 +30,7 @@
           </e>
         </e>
         <e p="Dissolve.shader" t="Include" />
-        <e p="DoTweenSample.cs" t="Include" />
-        <e p="NewImageEffectShader.shader" t="Include" />
-        <e p="PostEffectApply.cs" t="Include" />
+        <e p="Move.cs" t="Include" />
         <e p="PostProcessing" t="Include">
           <e p="Editor" t="Include">
             <e p="Attributes" t="Include">
@@ -190,6 +194,7 @@
           <e p="GlitchFx.shader" t="Include" />
           <e p="HDRmaterial.shader" t="Include" />
           <e p="mat.shader" t="Include" />
+          <e p="NewImageEffectShader.shader" t="Include" />
           <e p="SimplexNoise2D.cginc" t="Include" />
           <e p="SimplexNoise3D.cginc" t="Include" />
           <e p="SymmetryFx.shader" t="Include" />

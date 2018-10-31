@@ -10,6 +10,7 @@ using System.ComponentModel;
 using System.Linq;
 using  UnityEngine;
 using UnityEngine.Assertions.Comparers;
+using UnityEngine.UI;
 using Random = System.Random;
 
 
@@ -26,10 +27,10 @@ public class Follow : MonoBehaviour
     #region Editable Properties
     [SerializeField] Interpolator _interpolator;
     private Transform _target;
-    [SerializeField]private int _interval = 60;
-    private float t = 0.0f;
-    
-    [SerializeField]private float _radius = 15.0f;
+    [SerializeField] private int _interval = 60;
+    [SerializeField] private AnimationCurve _anim;
+    [SerializeField] private float _radius = 15.0f;
+    [SerializeField] private bool isInterpolation = true;
 
     public Interpolator interpolator
     {
@@ -54,12 +55,18 @@ public class Follow : MonoBehaviour
         get { return _radius; }
         set { _radius = value; }
     }
+
+    public bool IsInterpolation
+    {
+        get { return isInterpolation; }
+        set { isInterpolation = value; }
+    }
     #endregion
     
     
     #region Private Properties
     Vector3 _nextPos, _curPos;
-    [SerializeField] private AnimationCurve _anim;
+    private float t = 0.0f;
     #endregion
 
     void Start()
@@ -70,8 +77,27 @@ public class Follow : MonoBehaviour
     
     private void Update()
     {
-        var _dt = 1.0f / _interval;
-        
+        if (isInterpolation)
+        {
+            Interpolation();
+        }
+        else
+        {
+            Zoom();
+        }
+    }
+
+    #region Interpolation Func
+
+    public bool IsInterpolation1
+    {
+        get { return isInterpolation; }
+        set { isInterpolation = value; }
+    }
+
+    void Interpolation()
+    {
+        var _dt = 1.0f / _interval; 
         if (isInterval())
         {
             _nextPos = NextPos();
@@ -89,11 +115,8 @@ public class Follow : MonoBehaviour
             var val = _anim.Evaluate(t);
             this.transform.position = Interpolation(_curPos, _nextPos, val);
         }     
-        
         t += _dt;
     }
-
-    
     
     private Vector3 NextPos()
     {
@@ -120,8 +143,54 @@ public class Follow : MonoBehaviour
         Debug.Log(t);
         Vector3 pos = (nextPos - curPos);
         pos = pos * t + curPos;
-
-        
         return pos;
+    }
+    
+    #endregion
+
+    void Dolly()
+    {
+        this.transform.LookAt(target.transform.position);
+        this.transform.SetParent(target.transform);
+    }
+
+    void Pan()
+    {
+        this.transform.LookAt(target.transform.position);   
+    }
+
+    float h = 0.0f;
+    void Roll()
+    {
+        this.transform.LookAt(target.transform.position);
+        var dir = (target.transform.position - this.transform.position).normalized;
+        
+        h += Input.GetAxis("Horizontal");
+        this.transform.Rotate(Vector3.forward, h);
+    }
+
+    void Zoom()
+    {
+        transform.LookAt(target.transform.position);
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            if (Camera.main.fieldOfView < 170.0f)
+            {
+                Camera.main.fieldOfView += 0.5f;
+            }
+            
+            
+        }else if (Input.GetKey(KeyCode.DownArrow))
+        {
+            if (Camera.main.fieldOfView > 2.0f)
+            {
+                Camera.main.fieldOfView -= 0.5f;
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            Camera.main.orthographic = !Camera.main.orthographic;
+        }
     }
 }
