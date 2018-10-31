@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93adcdca-1043-4107-bd1a-0f86d2a51dea" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Camera/Follow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Camera/Follow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Material/Glitch.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/Glitch.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Follow.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Camera/Follow.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="121" column="30" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
+              <folding>
+                <marker date="1540741373000" expanded="true" signature="0:49" ph="/* targetを追うスクリプト ... */" />
+                <marker date="1540741373000" expanded="false" signature="57:262" ph="..." />
+                <marker date="1540741373000" expanded="true" signature="300:2721" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="307:422" ph="Nested Classes" />
+                <marker date="1540741373000" expanded="true" signature="358:407" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="428:1123" ph="Editable Properties" />
+                <marker date="1540741373000" expanded="true" signature="705:794" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="823:900" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="925:1006" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="1031:1108" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="1138:1261" ph="Private Properties" />
+                <marker date="1540741373000" expanded="true" signature="1279:1358" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="1389:1986" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="1466:1589" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="1673:1767" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="1810:1948" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="2027:2230" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="2267:2420" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="2443:2504" ph="{...}" />
+                <marker date="1540741373000" expanded="true" signature="2581:2719" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoTweenSample.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/DoTweenSample.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding>
+                <marker date="1540726214000" expanded="false" signature="6:97" ph="..." />
+                <marker date="1540726214000" expanded="true" signature="142:630" ph="{...}" />
+                <marker date="1540726214000" expanded="true" signature="159:602" ph="{...}" />
+                <marker date="1540726214000" expanded="true" signature="165:289" ph="/* this.transform.DOMove(new Vector3(5.0f, 1.5f, 1.5f), 15f); ... */" />
+                <marker date="1540726214000" expanded="true" signature="295:467" ph="/* this.transform.DOLocalJump( ... */" />
+                <marker date="1540726214000" expanded="true" signature="621:628" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Camera/Switcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Camera/Follow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DoTweenSample.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Camera/Switcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/DoTweenSample.cs" />
+        <option value="$PROJECT_DIR$/Assets/Camera/Follow.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="225" />
+    <option name="y" value="23" />
+    <option name="width" value="1264" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CameraUtil" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93adcdca-1043-4107-bd1a-0f86d2a51dea" name="Default" comment="" />
+      <created>1540720744023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540720744023</updated>
+      <workItem from="1540720746148" duration="2000" />
+      <workItem from="1540722083390" duration="5637000" />
+      <workItem from="1540738955018" duration="2641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8280000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="225" y="23" width="1264" height="875" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3280943" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23977087" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/DoTweenSample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <marker date="1540726214000" expanded="false" signature="6:97" ph="..." />
+            <marker date="1540726214000" expanded="true" signature="142:630" ph="{...}" />
+            <marker date="1540726214000" expanded="true" signature="159:602" ph="{...}" />
+            <marker date="1540726214000" expanded="true" signature="165:289" ph="/* this.transform.DOMove(new Vector3(5.0f, 1.5f, 1.5f), 15f); ... */" />
+            <marker date="1540726214000" expanded="true" signature="295:467" ph="/* this.transform.DOLocalJump( ... */" />
+            <marker date="1540726214000" expanded="true" signature="621:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Camera/Switcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1540724486000" expanded="true" signature="7:79" ph="..." />
+            <marker date="1540724486000" expanded="true" signature="118:518" ph="{...}" />
+            <marker date="1540724486000" expanded="true" signature="254:516" ph="{...}" />
+            <marker date="1540724486000" expanded="true" signature="378:513" ph="{...}" />
+            <marker date="1540724486000" expanded="true" signature="421:509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Camera/Follow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="84" selection-start-line="91" selection-start-column="84" selection-end-line="91" selection-end-column="84" />
+          <folding>
+            <marker date="1540741373000" expanded="true" signature="0:49" ph="/* targetを追うスクリプト ... */" />
+            <marker date="1540741373000" expanded="false" signature="57:262" ph="..." />
+            <marker date="1540741373000" expanded="true" signature="300:2721" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="307:422" ph="Nested Classes" />
+            <marker date="1540741373000" expanded="true" signature="358:407" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="428:1123" ph="Editable Properties" />
+            <marker date="1540741373000" expanded="true" signature="705:794" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="823:900" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="925:1006" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1031:1108" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1138:1261" ph="Private Properties" />
+            <marker date="1540741373000" expanded="true" signature="1279:1358" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1389:1986" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1466:1589" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1673:1767" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1810:1948" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="2027:2230" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="2267:2420" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="2443:2504" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="2581:2719" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Camera/Switcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1540724486000" expanded="true" signature="7:79" ph="..." />
+            <marker date="1540724486000" expanded="true" signature="118:518" ph="{...}" />
+            <marker date="1540724486000" expanded="true" signature="254:516" ph="{...}" />
+            <marker date="1540724486000" expanded="true" signature="378:513" ph="{...}" />
+            <marker date="1540724486000" expanded="true" signature="421:509" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DoTweenSample.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding>
+            <marker date="1540726214000" expanded="false" signature="6:97" ph="..." />
+            <marker date="1540726214000" expanded="true" signature="142:630" ph="{...}" />
+            <marker date="1540726214000" expanded="true" signature="159:602" ph="{...}" />
+            <marker date="1540726214000" expanded="true" signature="165:289" ph="/* this.transform.DOMove(new Vector3(5.0f, 1.5f, 1.5f), 15f); ... */" />
+            <marker date="1540726214000" expanded="true" signature="295:467" ph="/* this.transform.DOLocalJump( ... */" />
+            <marker date="1540726214000" expanded="true" signature="621:628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Camera/Follow.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="121" column="30" selection-start-line="121" selection-start-column="30" selection-end-line="121" selection-end-column="30" />
+          <folding>
+            <marker date="1540741373000" expanded="true" signature="0:49" ph="/* targetを追うスクリプト ... */" />
+            <marker date="1540741373000" expanded="false" signature="57:262" ph="..." />
+            <marker date="1540741373000" expanded="true" signature="300:2721" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="307:422" ph="Nested Classes" />
+            <marker date="1540741373000" expanded="true" signature="358:407" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="428:1123" ph="Editable Properties" />
+            <marker date="1540741373000" expanded="true" signature="705:794" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="823:900" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="925:1006" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1031:1108" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1138:1261" ph="Private Properties" />
+            <marker date="1540741373000" expanded="true" signature="1279:1358" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1389:1986" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1466:1589" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1673:1767" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="1810:1948" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="2027:2230" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="2267:2420" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="2443:2504" ph="{...}" />
+            <marker date="1540741373000" expanded="true" signature="2581:2719" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
