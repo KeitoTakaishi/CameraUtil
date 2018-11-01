@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93adcdca-1043-4107-bd1a-0f86d2a51dea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CameraUtil/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CameraUtil/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Camera/Follow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Camera/Follow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Material/Glitch.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/Glitch.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Follow.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Follow.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Camera/Follow.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="678">
@@ -62,6 +59,11 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ServerTest.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../OSC_Receiver/Assets/uOSC/Assets/uOSC/Examples/Scripts/ServerTest.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="Move.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Move.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,6 +86,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Camera/Switcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../OSC_Receiver/Assets/uOSC/Assets/uOSC/Examples/Scripts/ServerTest.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Camera/Follow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Move.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -169,12 +172,12 @@
       <workItem from="1540720746148" duration="2000" />
       <workItem from="1540722083390" duration="5637000" />
       <workItem from="1540738955018" duration="2641000" />
-      <workItem from="1540998795726" duration="2437000" />
+      <workItem from="1540998795726" duration="2681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10717000" />
+    <option name="totallyTimeSpent" value="10961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,6 +385,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../OSC_Receiver/Assets/uOSC/Assets/uOSC/Examples/Scripts/ServerTest.cs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
