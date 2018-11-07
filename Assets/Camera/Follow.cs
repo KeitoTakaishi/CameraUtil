@@ -83,7 +83,7 @@ public class Follow : MonoBehaviour
         }
         else
         {
-            Zoom();
+            Pan();
         }
     }
 

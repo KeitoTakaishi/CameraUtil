@@ -29,8 +29,8 @@ Material:
     m_Floats:
     - _Glossiness: 0.315
     - _Metallic: 0.378
-    - _Threshold: 0.3
-    - _TimeMag: 0.66
+    - _Threshold: 0.7
+    - _TimeMag: 1.77
     m_Colors:
     - _Color: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 0.078431375}
     - _HDRColor: {r: 1.39772, g: 0, b: 0.20490137, a: 1}
